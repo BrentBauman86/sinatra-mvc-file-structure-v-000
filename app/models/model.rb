@@ -12,7 +12,7 @@ class Dog
       @@all << self
     end
 
-    def self.create_from_array(dog_array)
-      dog_array.each {|dog| Dog.new(dog)}
-    end
+    # def self.create_from_array(dog_array)
+    #   dog_array.each {|dog| Dog.new(dog)}
+    # end
   end
