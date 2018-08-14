@@ -1,14 +1,13 @@
-class Dog 
+class Dog
 
-    attr_accessor :name, :breed, :age 
+    attr_accessor :name, :breed, :age
 
-    @@all = [] 
+    @@all = []
 
-    def initialize 
-      @name = name 
-      @breed = breed 
-      @age = age 
-      @@all << self  
+    def initialize
+      @name = name
+      @breed = breed
+      @age = age
+      @@all << self
     end
   end
-
